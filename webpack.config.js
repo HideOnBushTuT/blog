@@ -52,7 +52,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'cbreno',
             filename: 'index.html',
-            template: path.resolve(SRC_PATH, 'templates', 'index.html'),
+            template: path.resolve(ROOT_PATH, 'templates', 'index.html'),
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,

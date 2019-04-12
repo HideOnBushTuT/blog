@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Index() {
+function App() {
     return (
       <div className="container">
         <h1>Hello React!</h1>
@@ -9,6 +9,6 @@ function Index() {
     );
 }
 
-ReactDOM.render(<Index />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
-export default Index;
+export default App;
