@@ -1,0 +1,8 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HideOnBushTuT/blog.git",
+  "author": "shanbin cai <shanbin.cai@gmail.com>",
+  "license": "MIT"
+}
