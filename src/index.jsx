@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function App() {
+import Home from './Views/Home/Home';
+
+const App = () => {
     return (
       <div className="container">
-        <h1>Hello React!</h1>
+        <Home/>
       </div>
     );
 }

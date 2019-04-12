@@ -38,6 +38,10 @@ module.exports = {
                 loaders: ['babel-loader'],
                 include: SRC_PATH,
                 exclude: path.resolve(ROOT_PATH, 'node_modules')
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader?limit=8192'
             }
         ]
     },
