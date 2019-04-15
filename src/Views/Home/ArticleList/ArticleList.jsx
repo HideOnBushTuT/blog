@@ -10,10 +10,10 @@ const articles = [
 
 const ArticleList = () => {
     return (
-        <div className="ArticleList">
+        <div className="ArticleList" style={{ margin: '40px' }}>
             {
                 articles.map((article) => (
-                   <AritcleItem key={article.title} title={article.title} date={article.date} time={article.time} subtitle={article.subtitle} />
+                   <AritcleItem key={article.title} title={article.title} date={article.date} readTime={article.time} subtitle={article.subtitle} />
                 ))
             }
         </div>
