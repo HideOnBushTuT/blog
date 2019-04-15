@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../../Asserts/Head/logo.png';
+import logo from '../../Asserts/images/Head/logo.png';
 
 const PersonInfo = () => {
     return (
