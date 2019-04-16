@@ -23,6 +23,7 @@ const ArticleList = () => {
                         // }} />
                     ))
                 }
+                <Route/>
             </div>
         </BrowserRouter>
     );
