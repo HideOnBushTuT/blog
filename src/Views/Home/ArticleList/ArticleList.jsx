@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter, Link } from 'react-router-dom';
 
 import AritcleItem from './ArticleItem';
 import ArticlePage from '../../ArticlePage/ArticlePage';
@@ -13,7 +13,6 @@ const articles = [
 
 const ArticleList = () => {
     return (
-        <BrowserRouter>
             <div className="ArticleList" style={{ margin: '40px' }}>
                 {
                     articles.map((article) => (
@@ -23,9 +22,7 @@ const ArticleList = () => {
                         // }} />
                     ))
                 }
-                <Route/>
             </div>
-        </BrowserRouter>
     );
 };
 

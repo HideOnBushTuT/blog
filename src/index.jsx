@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // import Home from './Views/Home/Home';
-import Root from './Views/index';
+import Roots from './Views/index';
 
 const App = () => {
     return (
       <div className="container">
-        <Root />
+        <Roots />
       </div>
     );
 }
