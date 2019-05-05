@@ -34,6 +34,15 @@ module.exports = {
             //     include: SRC_PATH,
             // }, {
             {
+                test: /\.(html)$/,
+                use: {
+                    loader: 'html-loader',
+                    options: {
+                        attrs: [':data-src']
+                    }
+                }
+            },
+            {
                 test: /\.jsx?$/,
                 loaders: ['babel-loader'],
                 include: SRC_PATH,
@@ -42,6 +51,20 @@ module.exports = {
             {
                 test: /\.(png|jpg)$/,
                 loader: 'url-loader?limit=8192'
+            },
+            {
+                test: /\.md$/,
+                use: [
+                    {
+                        loader: "html-loader"
+                    },
+                    {
+                        loader: "markdown-loader",
+                        options: {
+                            /* your options here */
+                        }
+                    }
+                ]
             }
         ]
     },
