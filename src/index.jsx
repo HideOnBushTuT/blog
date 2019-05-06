@@ -6,7 +6,7 @@ import Roots from './Views/index';
 
 const App = () => {
     return (
-      <div className="container">
+      <div>
         <Roots />
       </div>
     );
