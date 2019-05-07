@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // import Home from './Views/Home/Home';
+import './index.css';
 import Roots from './Views/index';
 
 const App = () => {
