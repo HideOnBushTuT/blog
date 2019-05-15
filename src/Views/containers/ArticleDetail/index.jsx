@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import remark from 'remark';
 import reactRender from 'remark-react';
@@ -8,9 +8,11 @@ import '../../comonents/Header/style.css';
 import './style.css';
 
 
-const articleContent = "## 标题 \n```code``` \n 23333333333333333"
+// const articleContent = "## 标题 \n```code``` \n 23333333333333333"
 
 const ArticleDetail = () => {
+    const [articleContent, setArticleContent] = useState('## 标题 \n```code``` \n 23333333333333333');
+
     return (
         <div className="header_container">
             <div className="header">
